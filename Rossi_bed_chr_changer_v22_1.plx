@@ -1,12 +1,14 @@
 #!/usr/bin/perl
 # Written: Nick Kent, 12th Nov 2012
-# Last updated: Nick Kent, 12th Nov 2012
+# Modified: Nick Kent, 12th Nov 2012
 # Modified: Nick Kent, 22nd Feb 2019
 # Modified: Nick Kent, 6th April 2022
+# Tidied: Nick Kent, 17th Nov 2023
 # USAGE:- perl Rossi_bed_chr_changer_v22_xxx.plx
 #
 # This script takes chr1, chr2 format .bed files from the Rossi et al., 2021 GitHub
-# and converts to chrI, chrII format for the SacCer3 build of the yeast genome.
+# in its home dir and converts to chrI, chrII format for the SacCer3 build of the yeast genome.
+# Output will be in a new time-stamped directory.
 # 
 ################################################################################
 
@@ -17,7 +19,7 @@ use POSIX qw(strftime);
 
 
 ################################################################################
-# SET THE VARIABLES BELOW AS REQUIRED
+# RESET THE VARIABLES BELOW IF REQUIRED
 # $bed_indir_path   - The directory containing the .bed file
 # $outdir_path  - The directory to store the flipped .bed output file
 # $bed_outfile_name - User-defined name for the .bed output file
