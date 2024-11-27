@@ -17,7 +17,8 @@
 #
 # The Script .sgr format file listing the matches where Rossi peaks fall within .sgr file bins. The script also
 # outputs at command line the total number of peaks which found a matching interval (effectively calling bins
-# with more than one peak as the number greater than the input value). 
+# with more than one peak as the number greater than the input value). Note: the number of reported matches may be
+# larger than the number of input sites - don't worry; this state occurs when a site lies on an .sgr bin boundary.
 #
 #
 # WARNING: this is relatively untested and was written on the fly in about 30 mins; it is appallingly inefficient.
