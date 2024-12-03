@@ -1,5 +1,5 @@
 # student_chromatin_tools
-A suite of stand-alone Perl scripts for students to create and process Kent Lab MNase-seq/CPSA data. NOTE: The core suggested scripts for the 2024 FYPs (complete with suggested folder structure) can be downloaded in one go as Script_Suite.zip
+A suite of stand-alone Perl scripts for students to create and process Kent Lab MNase-seq/CPSA data. NOTE: The core suggested scripts for the 2024 FYPs (complete with suggested folder structure) can be downloaded in one go as Script_suite.zip
 
 Rather than write huge app-like structures, Nick tends to write short scripts which perform single tasks. This modularity is designed to get you to think about the principle of the pipeline by inspecting the intermediate data as you go. You can, of course, write your own wrapper shell script to force the data from .fastq -> bedGraph if you want. You could also just use Danpos in which case you'll want to look at SAM2PartN_SAM.plx as a gateway to size-selecting the MNase size distribution data.
 
